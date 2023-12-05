@@ -3,7 +3,7 @@ name: MiFlujoDeTrabajo
 on:
   push:
     branches:
-      - main
+      - devs
   pull_request:
       branches:
       - devs
