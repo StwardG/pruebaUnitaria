@@ -3,10 +3,10 @@ name: MiFlujoDeTrabajo
 on:
   push:
     branches:
-      - devs
+      - dev
   pull_request:
       branches:
-      - devs
+      - dev
 jobs:
   mi_trabajo:
     runs-on: ubuntu-latest
